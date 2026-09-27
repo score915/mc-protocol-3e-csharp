@@ -1,0 +1,49 @@
+﻿========================================================================
+Started: 2026-09-27T14:06:57.9577179+09:00
+Command: C:\Users\makot\Documents\Codex\2026-09-25\kv-ethernet-protocol-lab-ui\outputs\csharp\samples\Mc3E.Console\bin\Release\net8.0\Mc3E.Console.dll status --ip 192.168.0.10
+Error: PLC auto-detection failed for 192.168.0.10 (5000: MC connection timed out to 192.168.0.10:5000; 5002: MC connection timed out to 192.168.0.10:5002; 1025: MC connection timed out to 192.168.0.10:1025; 1026: MC connection timed out to 192.168.0.10:1026; 4999: MC connection timed out to 192.168.0.10:4999; 5010: MC connection timed out to 192.168.0.10:5010)
+Exit code: 1
+Finished: 2026-09-27T14:07:04.0470985+09:00
+========================================================================
+Started: 2026-09-27T14:07:07.0209999+09:00
+Command: C:\Users\makot\Documents\Codex\2026-09-25\kv-ethernet-protocol-lab-ui\outputs\csharp\samples\Mc3E.Console\bin\Release\net8.0\Mc3E.Console.dll read DM 60000 11 --vendor keyence --ip 192.168.0.10 --port 5000
+Error: MC connection timed out to 192.168.0.10:5000
+Exit code: 1
+Finished: 2026-09-27T14:07:10.0502051+09:00
+========================================================================
+Started: 2026-09-27T14:07:12.9524030+09:00
+Command: C:\Users\makot\Documents\Codex\2026-09-25\kv-ethernet-protocol-lab-ui\outputs\csharp\samples\Mc3E.Console\bin\Release\net8.0\Mc3E.Console.dll readbit MR 60000 2 --vendor keyence --ip 192.168.0.10 --port 5000
+Error: MC connection timed out to 192.168.0.10:5000
+Exit code: 1
+Finished: 2026-09-27T14:07:15.9863497+09:00
+========================================================================
+Started: 2026-09-27T14:10:19.6622196+09:00
+Command: C:\Users\makot\Documents\Codex\2026-09-25\kv-ethernet-protocol-lab-ui\outputs\csharp\samples\Mc3E.Console\bin\Release\net8.0\Mc3E.Console.dll status --ip 192.168.0.240
+Detected PLC: vendor=mitsubishi, model=Q00UJCPU (0x0260), port=5002
+CPU model: Q00UJCPU (code 0x0260)
+CPU switch = RUN; CPU state = RUN; cause = switch
+SD200..SD203 = 0x0000 0x4001 0x0000 0x0000
+SM0 = OFF; SM1 = OFF; SD0 error code = 0x0000
+Exit code: 0
+Finished: 2026-09-27T14:10:22.8061162+09:00
+========================================================================
+Started: 2026-09-27T14:10:25.7675111+09:00
+Command: C:\Users\makot\Documents\Codex\2026-09-25\kv-ethernet-protocol-lab-ui\outputs\csharp\samples\Mc3E.Console\bin\Release\net8.0\Mc3E.Console.dll read D 0 3 --vendor mitsubishi --ip 192.168.0.240 --port 5002
+D0 = 0 (0x0000)
+D1 = 0 (0x0000)
+D2 = 0 (0x0000)
+Exit code: 0
+Finished: 2026-09-27T14:10:25.8129779+09:00
+========================================================================
+Started: 2026-09-27T14:10:29.0064264+09:00
+Command: C:\Users\makot\Documents\Codex\2026-09-25\kv-ethernet-protocol-lab-ui\outputs\csharp\samples\Mc3E.Console\bin\Release\net8.0\Mc3E.Console.dll readbit M 0 8 --vendor mitsubishi --ip 192.168.0.240 --port 5002
+M0 = OFF
+M1 = OFF
+M2 = OFF
+M3 = OFF
+M4 = OFF
+M5 = OFF
+M6 = OFF
+M7 = OFF
+Exit code: 0
+Finished: 2026-09-27T14:10:29.0538171+09:00
