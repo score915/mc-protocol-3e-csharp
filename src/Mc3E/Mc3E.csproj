@@ -8,21 +8,26 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
     <PackageId>Mc3E.Client</PackageId>
-    <Version>0.1.0</Version>
-    <Authors>Mc3E contributors</Authors>
+    <Version>1.0.0</Version>
+    <PackageVersion>1.0.0</PackageVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Authors>score915</Authors>
     <Title>MC 3E Binary Client</Title>
     <Description>Dependency-free MC protocol 3E binary TCP client for Mitsubishi MELSEC and KEYENCE KV PLCs.</Description>
     <PackageTags>PLC;MC Protocol;SLMP;MELSEC;Mitsubishi;KEYENCE;industrial automation</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <RepositoryUrl>https://github.com/score915/mc-protocol-3e-csharp</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/score915/mc-protocol-3e-csharp</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\..\README.ja.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

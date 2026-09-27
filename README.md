@@ -26,7 +26,7 @@ support QnA-compatible MC protocol 3E binary frames over TCP.
 After the package ID and version are published:
 
 ```console
-dotnet add package Mc3E.Client --version 0.1.0
+dotnet add package Mc3E.Client --version 1.0.0
 ```
 
 ## Read and write
@@ -121,7 +121,7 @@ dotnet test Mc3E.sln -c Release
 dotnet pack src/Mc3E/Mc3E.csproj -c Release -o artifacts
 ```
 
-The package output is `artifacts/Mc3E.Client.0.1.0.nupkg`.
+The package output is `artifacts/Mc3E.Client.1.0.0.nupkg`.
 
 ## Supported scope
 

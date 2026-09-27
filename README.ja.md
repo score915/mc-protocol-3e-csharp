@@ -26,7 +26,7 @@ KEYENCE KV対応の外部依存なし.NETライブラリです。
 パッケージIDとバージョンの公開後に実行します。
 
 ```console
-dotnet add package Mc3E.Client --version 0.1.0
+dotnet add package Mc3E.Client --version 1.0.0
 ```
 
 ## 読出し・書込み
@@ -115,7 +115,7 @@ dotnet test Mc3E.sln -c Release
 dotnet pack src/Mc3E/Mc3E.csproj -c Release -o artifacts
 ```
 
-生成物は`artifacts/Mc3E.Client.0.1.0.nupkg`です。
+生成物は`artifacts/Mc3E.Client.1.0.0.nupkg`です。
 
 ## 対応範囲
 
